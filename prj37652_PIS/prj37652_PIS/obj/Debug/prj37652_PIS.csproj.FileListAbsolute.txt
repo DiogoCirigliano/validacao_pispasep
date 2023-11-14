@@ -1,0 +1,11 @@
+C:\Users\aluno\Desktop\prj37652_PIS\prj37652_PIS\bin\Debug\prj37652_PIS.exe.config
+C:\Users\aluno\Desktop\prj37652_PIS\prj37652_PIS\bin\Debug\prj37652_PIS.exe
+C:\Users\aluno\Desktop\prj37652_PIS\prj37652_PIS\bin\Debug\prj37652_PIS.pdb
+C:\Users\aluno\Desktop\prj37652_PIS\prj37652_PIS\obj\Debug\prj37652_PIS.csproj.AssemblyReference.cache
+C:\Users\aluno\Desktop\prj37652_PIS\prj37652_PIS\obj\Debug\prj37652_PIS.csproj.SuggestedBindingRedirects.cache
+C:\Users\aluno\Desktop\prj37652_PIS\prj37652_PIS\obj\Debug\prj37652_PIS.frm37652_PIS.resources
+C:\Users\aluno\Desktop\prj37652_PIS\prj37652_PIS\obj\Debug\prj37652_PIS.Properties.Resources.resources
+C:\Users\aluno\Desktop\prj37652_PIS\prj37652_PIS\obj\Debug\prj37652_PIS.csproj.GenerateResource.cache
+C:\Users\aluno\Desktop\prj37652_PIS\prj37652_PIS\obj\Debug\prj37652_PIS.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Desktop\prj37652_PIS\prj37652_PIS\obj\Debug\prj37652_PIS.exe
+C:\Users\aluno\Desktop\prj37652_PIS\prj37652_PIS\obj\Debug\prj37652_PIS.pdb
