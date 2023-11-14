@@ -19,9 +19,17 @@ namespace prj37652_PIS
 
         private void btnValidar_Click(object sender, EventArgs e)
         {
+            if (String.IsNullOrEmpty(txtPIS.Text))
+            {
+                MessageBox.Show("Caixa de texto Vazia", "Erro", MessageBoxButtons.OK,MessageBoxIcon.Error);
+                txtPIS.Focus();
+                return;
+            }
             try
             {
-                btnValidar.Text = cls37652_PIS.Validar(txtPIS.Text)? "Válido": "Inválido";
+                string PIS = txtPIS.Text.Trim();
+                btnValidar.Text = cls37652_PIS.Validar(PIS)? "Válido": "Inválido";
+
                 if(btnValidar.Text == "Válido")
                 {
                     btnValidar.ForeColor = Color.Green;
@@ -31,8 +39,7 @@ namespace prj37652_PIS
                 {
                     btnValidar.ForeColor = Color.Red;
                     txtPIS.ForeColor = Color.Red;
-                }
-                
+                }         
             }
             catch (Exception)
             {
@@ -44,6 +51,15 @@ namespace prj37652_PIS
         {
             btnValidar.ForeColor = Color.Black;
             txtPIS.ForeColor = Color.Black;
+        }
+
+        private void txtPIS_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && e.KeyChar != '\b' && e.KeyChar != (char)Keys.Delete &&
+                e.KeyChar != (char)3 && e.KeyChar != (char)22)
+            {
+                e.Handled = true;
+            }
         }
     }
 }

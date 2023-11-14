@@ -44,6 +44,7 @@
             this.txtPIS.Size = new System.Drawing.Size(188, 24);
             this.txtPIS.TabIndex = 0;
             this.txtPIS.TextChanged += new System.EventHandler(this.txtPIS_TextChanged);
+            this.txtPIS.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPIS_KeyPress);
             // 
             // contextMenuStrip1
             // 
